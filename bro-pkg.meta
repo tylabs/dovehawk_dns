@@ -1,0 +1,4 @@
+[package]
+description = Dovehawk.io Passive DNS Capture Module.
+tags = dns, pdns, log, passive, dovehawk
+script_dir = ./scripts/

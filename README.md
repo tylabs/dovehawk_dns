@@ -4,14 +4,28 @@ This module colects DNS requested names and multiple answers across an entire Cl
 
 Local hostnames are stripped to further anonymize the data for external sharing.
 
-# Requirements
+![Sticker 1](https://dovehawk.io/images/dovehawk_sticker1.png "Sticker 1") ![Sticker 2](https://dovehawk.io/images/dovehawk_sticker2.png "Sticker 2")
+
+## Screencaps
+
+### DoveHawk pDNS Reported
+
+![Dovehawk pDNS Reports](https://dovehawk.io/images/dovehawk_dns.png "Dovehawk pDNS")
+
+
+### DoveHawk pdns.log Local Log
+
+![Dovehawk pDNS Log](https://dovehawk.io/images/pdnslog.png "Dovehawk pDNS Log")
+
+
+## Requirements
 
 Zeek > 2.6.1 (Some 2.5 versions may work but testing showed issues with triggering the SUMSTATS finished epoch.
 
 Curl command line version used by ActiveHTTP
 
 
-# Database
+## Database
 
 See dovehawk_lambda for a AWS Lambda serverless function.
 

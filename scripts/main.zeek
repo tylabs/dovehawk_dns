@@ -1,4 +1,4 @@
-# Dovehawk.io pDNS Module v1.0.0 2019 07 02
+# Dovehawk.io pDNS Module v1.1.0 2020 03 21
 
 @load base/utils/site
 @load base/frameworks/sumstats

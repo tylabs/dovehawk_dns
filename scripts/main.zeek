@@ -3,7 +3,7 @@
 @load base/utils/site
 @load base/frameworks/sumstats
 @load base/utils/directions-and-hosts
-@load ../config.bro
+@load ../config
 
 
 module dovehawk_dns;
@@ -59,14 +59,8 @@ function send_json(json: string) {
 }
 
 
-@if( /^2\./ in bro_version() )
-
-event bro_init() &priority=5
-	{
-@else
 event zeek_init() &priority=5
 	{
-@endif
 
 	local rec: dovehawk_dns::Info;
 

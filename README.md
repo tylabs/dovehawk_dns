@@ -20,7 +20,7 @@ Local hostnames are stripped to further anonymize the data for external sharing.
 
 ## Requirements
 
-Zeek > 2.6.1 (Some 2.5 versions may work but testing showed issues with triggering the SUMSTATS finished epoch).
+Zeek > 3.0
 
 Curl command line version used by ActiveHTTP
 
